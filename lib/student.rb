@@ -7,6 +7,6 @@ class Student < User
   end
   
   def learn(new_knowledge)
-    self.knowledge << knowledge_string
+    self.knowledge << new_knowledge
   end
 end
